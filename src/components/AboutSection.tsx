@@ -21,7 +21,7 @@ export default function AboutSection() {
         >
           <span className="text-primary font-medium mb-2 block">Tentang Saya</span>
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-4">
-            Mengenal Lebih Dekat
+            Mengenal lebih dekat dengan saya 
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full" />
         </motion.div>
@@ -57,8 +57,7 @@ export default function AboutSection() {
               Passionate Developer &amp; Creator
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Saya adalah seorang Fullstack Web Developer dengan passion yang kuat dalam menciptakan 
-              solusi digital yang inovatif. Dengan pengalaman lebih dari 5 tahun, saya telah 
+              Saya adalah Muhammad Arrayan Azami saya lahir di aceh besar pada tanggal 15 juli 2010 saya sedang menempuh jenjang pendidikan kelas 10 di man 1 banda aceh, saya telah 
               membantu berbagai klien dan perusahaan dalam mewujudkan ide-ide mereka menjadi 
               aplikasi web yang powerful dan user-friendly.
             </p>

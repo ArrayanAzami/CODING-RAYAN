@@ -1,26 +1,26 @@
 import { motion } from 'framer-motion';
 
 const skills = {
-  frontend: [
-    { name: 'React', level: 95 },
-    { name: 'TypeScript', level: 90 },
-    { name: 'Next.js', level: 88 },
-    { name: 'Tailwind CSS', level: 95 },
-    { name: 'Vue.js', level: 75 },
+  SENI: [
+    { name: 'melukis', level: 95 },
+    { name: 'bernyanyi', level: 90 },
+    { name: 'berakting', level: 88 },
+    { name: 'tari', level: 95 },
+    { name: 'vocal', level: 75 },
   ],
-  backend: [
-    { name: 'Node.js', level: 90 },
-    { name: 'Python', level: 85 },
-    { name: 'PostgreSQL', level: 88 },
-    { name: 'MongoDB', level: 82 },
-    { name: 'GraphQL', level: 78 },
+  IPA: [
+    { name: 'Biologi', level: 90 },
+    { name: 'Kimia', level: 85 },
+    { name: 'Fisika', level: 88 },
+    { name: 'Matematika', level: 82 },
+    { name: 'Python', level: 78 },
   ],
-  tools: [
-    { name: 'Git', level: 95 },
-    { name: 'Docker', level: 80 },
-    { name: 'AWS', level: 75 },
-    { name: 'Figma', level: 85 },
-    { name: 'CI/CD', level: 82 },
+  IPS: [
+    { name: 'Geografi', level: 95 },
+    { name: 'sejarah', level: 80 },
+    { name: 'Ekonomi', level: 75 },
+    { name: 'sosiologi', level: 85 },
+    { name: 'antropologi', level: 82 },
   ],
 };
 
@@ -61,9 +61,9 @@ export default function SkillsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-primary font-medium mb-2 block">Keahlian</span>
+          <span className="text-primary font-medium mb-2 block">KEAHLIAN</span>
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-4">
-            Skills &amp; Teknologi
+            Pengalaman &amp; Pengetahuan
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full" />
         </motion.div>
@@ -84,7 +84,7 @@ export default function SkillsSection() {
               <h3 className="font-display text-xl font-bold">Frontend</h3>
             </div>
             <div className="space-y-4">
-              {skills.frontend.map((skill, index) => (
+              {skills.SENI.map((skill, index) => (
                 <SkillBar key={skill.name} {...skill} delay={index * 0.1} />
               ))}
             </div>
@@ -100,12 +100,12 @@ export default function SkillsSection() {
           >
             <div className="flex items-center gap-3 mb-6">
               <div className="p-3 rounded-xl bg-primary/10">
-                <span className="text-2xl">⚙️</span>
+                <span className="text-2xl"> 💡</span>
               </div>
               <h3 className="font-display text-xl font-bold">Backend</h3>
             </div>
             <div className="space-y-4">
-              {skills.backend.map((skill, index) => (
+              {skills.IPA.map((skill, index) => (
                 <SkillBar key={skill.name} {...skill} delay={index * 0.1} />
               ))}
             </div>
@@ -121,12 +121,12 @@ export default function SkillsSection() {
           >
             <div className="flex items-center gap-3 mb-6">
               <div className="p-3 rounded-xl bg-primary/10">
-                <span className="text-2xl">🛠️</span>
+                <span className="text-2xl">🎄</span>
               </div>
               <h3 className="font-display text-xl font-bold">Tools &amp; Lainnya</h3>
             </div>
             <div className="space-y-4">
-              {skills.tools.map((skill, index) => (
+              {skills.IPS.map((skill, index) => (
                 <SkillBar key={skill.name} {...skill} delay={index * 0.1} />
               ))}
             </div>
